@@ -1,7 +1,6 @@
 ---
 layout: page
 title: 官网上线公告
-date: 2026-08-16
 permalink: /post/official-launch.html
 post: true
 ---
