@@ -5,7 +5,7 @@ title: 公告栏
 
 # 公告栏
 
-{% assign posts = site.pages | where: "post", true | sort: "name" | reverse %}
+{% assign posts = site.pages | where_exp: "item", "item.dir == '/post/'" | sort: "name" | reverse %}
 <ul class="board">
   {% for item in posts %}
   {% assign name_parts = item.name | split: "-" %}
