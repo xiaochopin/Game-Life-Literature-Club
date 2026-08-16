@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Sans GB", "Yu Gothic", "Noto Sans SC", sans-serif;
+  color: #2d2d2d;
+  background: #faf9fc;
+}
+
+.container {
+  width: min(900px, 92%);
+  margin: 0 auto;
+}
+
+.site-header {
+  border-bottom: 1px solid #e7e4ee;
+  background: #ffffffcc;
+  backdrop-filter: blur(4px);
+}
+
+.site-nav {
+  min-height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand,
+.nav-link {
+  text-decoration: none;
+  color: #2d2d2d;
+}
+
+.brand {
+  font-size: 1.08rem;
+  letter-spacing: 0.02em;
+}
+
+.nav-link {
+  font-size: 0.95rem;
+}
+
+main {
+  padding: 2.5rem 0 3rem;
+}
+
+h1 {
+  font-weight: 500;
+  margin: 0 0 1.2rem;
+}
+
+.board {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid #ece8f2;
+}
+
+.board li {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.9rem 0;
+  border-bottom: 1px solid #ece8f2;
+}
+
+.notice-title {
+  font-size: 0.98rem;
+}
+
+.notice-date {
+  color: #7f788f;
+  font-size: 0.88rem;
+  white-space: nowrap;
+}
+
+.about-text {
+  line-height: 1.8;
+  max-width: 42rem;
+}
+
+.site-footer {
+  border-top: 1px solid #e7e4ee;
+  padding: 1rem 0;
+  color: #7f788f;
+  font-size: 0.88rem;
+}
