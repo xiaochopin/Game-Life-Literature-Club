@@ -1,7 +1,6 @@
 ---
 layout: page
 title: 社团作品开发进度将在此更新
-date: 2026-08-12
 permalink: /post/dev-progress.html
 post: true
 ---
