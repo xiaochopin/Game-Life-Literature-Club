@@ -4,7 +4,8 @@
 
 body {
   margin: 0;
-  font-family: "Hiragino Sans GB", "Yu Gothic", "Noto Sans SC", sans-serif;
+  font-family: "MiSans", "Hiragino Sans GB", "Yu Gothic", "Noto Sans SC", sans-serif;
+  font-weight: 350;
   color: #2d2d2d;
   background: #faf9fc;
 }
@@ -27,6 +28,12 @@ body {
   justify-content: space-between;
 }
 
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
 .brand,
 .nav-link {
   text-decoration: none;
@@ -35,11 +42,13 @@ body {
 
 .brand {
   font-size: 1.08rem;
+  font-weight: 400;
   letter-spacing: 0.02em;
 }
 
 .nav-link {
   font-size: 0.95rem;
+  font-weight: 350;
 }
 
 main {
@@ -47,7 +56,7 @@ main {
 }
 
 h1 {
-  font-weight: 500;
+  font-weight: 420;
   margin: 0 0 1.2rem;
 }
 
@@ -69,6 +78,8 @@ h1 {
 
 .notice-title {
   font-size: 0.98rem;
+  color: #2d2d2d;
+  text-decoration: none;
 }
 
 .notice-date {
@@ -77,9 +88,17 @@ h1 {
   white-space: nowrap;
 }
 
-.about-text {
-  line-height: 1.8;
-  max-width: 42rem;
+.notice-title:hover {
+  text-decoration: underline;
+}
+
+.page-article {
+  max-width: 44rem;
+}
+
+.page-content {
+  line-height: 1.9;
+  color: #3a3545;
 }
 
 .site-footer {
