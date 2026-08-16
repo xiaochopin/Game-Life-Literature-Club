@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 公告栏
+browser_title: Game Life Literature Club
 ---
 
 # 公告栏
