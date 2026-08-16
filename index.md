@@ -5,17 +5,12 @@ title: 公告栏
 
 # 公告栏
 
+{% assign posts = site.pages | where: "post", true | sort: "date" | reverse %}
 <ul class="board">
+  {% for item in posts %}
   <li>
-    <span class="notice-title">官网上线公告</span>
-    <span class="notice-date">2026-08-16</span>
+    <a class="notice-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+    <span class="notice-date">{{ item.date | date: "%Y-%m-%d" }}</span>
   </li>
-  <li>
-    <span class="notice-title">社团作品开发进度将在此更新</span>
-    <span class="notice-date">2026-08-12</span>
-  </li>
-  <li>
-    <span class="notice-title">欢迎关注 Game Life Literature Club</span>
-    <span class="notice-date">2026-08-01</span>
-  </li>
+  {% endfor %}
 </ul>
