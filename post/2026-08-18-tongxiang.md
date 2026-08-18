@@ -10,6 +10,8 @@ title: 《铜像》正式上线
 安卓下载：[蓝奏云](https://chopin.lanzouw.com/iewUj432v5ri)  
 Windows下载：[夸克网盘](https://pan.quark.cn/s/a1bbcc12a7e1)
 
+>对于安卓用户，可能因为系统Webview版本过低导致无法进行游戏。
+
 原文诞生于作者高三时期一个无聊的晚自习，致敬那段忙里睡觉的时光。
 
 声明：  
