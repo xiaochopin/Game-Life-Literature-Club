@@ -101,6 +101,19 @@ h1 {
   color: #3a3545;
 }
 
+.page-content blockquote {
+  margin: 1.5rem 0;
+  padding: 0.9rem 1rem 0.9rem 1.2rem;
+  background: #f3f3f5;
+  border-left: 4px solid #b9bcc5;
+  border-radius: 6px;
+  color: #4a4654;
+}
+
+.page-content blockquote p {
+  margin: 0;
+}
+
 .site-footer {
   border-top: 1px solid #e7e4ee;
   padding: 1rem 0;
