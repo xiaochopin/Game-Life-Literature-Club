@@ -7,7 +7,7 @@ title: 《铜像》正式上线
 
 《铜像》是我们的一个带有试验性质的短篇作品，可能带有许多缺陷，请多海涵。
 
-安卓下载：[蓝奏云](https://chopin.lanzouw.com/iP0k14305ouh)  
+安卓下载：[蓝奏云](https://chopin.lanzouw.com/tp/iP0k14305ouh)  
 Windows下载：[夸克网盘](https://pan.quark.cn/s/a1bbcc12a7e1)
 
 原文诞生于作者高三时期一个无聊的晚自习，致敬那段忙里睡觉的时光。
